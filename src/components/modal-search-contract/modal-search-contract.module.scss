@@ -1,0 +1,126 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    min-width: 25%;
+    max-height: 60%;
+    background-color: $color-white;
+}
+
+.description {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-black;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px;
+    gap: 20px;
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label-continue {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.label-cancel {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.label-styles {
+    font-family: $font-regular;
+    font-size: $text-small;
+    color: $color-gray2;
+}
+
+.placeholder {
+    font-family: $font-regular;
+    font-size: $text-small;
+    color: $color-gray2;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-gray2;
+    font-size: $text-small;
+    font-family: $font-regular;
+    outline: none;
+}
+
+.input-time {
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: $color-gray2;
+    font-size: $text-small;
+    font-family: $font-regular;
+    outline: none;
+    width: 100%;
+}
+
+.input-container {
+    margin-top: 3px;
+    // margin-bottom: 10px;
+    background-color: $color-white;
+}
+
+.container-input {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+.view-input-time {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}

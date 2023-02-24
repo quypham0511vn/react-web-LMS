@@ -1,0 +1,105 @@
+@import 'assets/scss';
+.view-body-left {
+    min-width: 22%;
+    padding: 5px 8px;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+}
+
+.view-body-left-group {
+    padding: 0px 5px;
+    width: 100%;
+    margin-bottom: -10px;
+    background-color: $color-white;
+    .container-input {
+        margin-top: 5px;
+    }
+    .input-styles {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 1;
+        border: none;
+        padding: 5px 8px;
+        font-size: $text-small;
+        font-family: $font-medium;
+        color: $color-gray2;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+.txt-group {
+    font-size: $text-normal;
+    color: $color-black;
+    font-family: $font-bold;
+}
+
+.right-icon-input {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.body-left-bottom-container {
+    flex: 1;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    background-color: $color-white;
+    margin-bottom: 16px;
+    .group-button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-button {
+        background-color: $color-white;
+        width: 100%;
+        display: flex;
+        padding: 10px 0px;
+        justify-content: space-between;
+        align-items: center;
+        .label-btn {
+            color: $color-black;
+            font-size: $text-small;
+            font-family: $font-regular;
+            padding-left: 10px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+        .right-icon {
+            padding-right: 5px;
+        }
+    }
+    .container-button-green {
+        background-color: $color-green-header;
+        width: 100%;
+        display: flex;
+        padding: 10px 0px;
+        justify-content: space-between;
+        align-items: center;
+        .label-btn {
+            color: $color-white;
+            font-size: $text-small;
+            font-family: $font-regular;
+            padding-left: 10px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+        .right-icon {
+            padding-right: 5px;
+            filter: brightness(0) invert(1);
+            -webkit-filter: brightness(0) invert(1);
+        }
+    }
+}

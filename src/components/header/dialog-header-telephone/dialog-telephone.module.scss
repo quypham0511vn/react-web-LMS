@@ -1,0 +1,93 @@
+@import "assets//scss/";
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 16px;
+    min-width: 30%;
+    background-color: $color-white;
+    border-radius: 12px;
+    .group-input {
+        margin-bottom: 12px;
+        .inputItem {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid $color-solid-border;
+            border-radius: 5px;
+        }
+    }
+    .form-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color-gray-e6;
+        border-radius: 5px;
+        border-color: $color-gray-e6;
+        .label-item-phone {
+            font-size: $text-big;
+            display: flex;
+            align-items: center;
+            color: $color-black-origin;
+            padding: 10px 0;
+            font-family: $font-medium;
+        }
+    }
+    .view-bottom {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 32px;
+        .button-continue {
+            background-color: $color-green-header;
+            display: flex;
+            width: 75%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            .label-continue {
+                font-size: $text-small;
+                font-family: $font-regular;
+                color: $color-white;
+                text-align: center;
+                margin-bottom: 0;
+                padding: 8px 0;
+            }
+        }
+        .button-cancel {
+            background-color: $color-red-r1;
+            display: flex;
+            width: 20%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            .label-cancel {
+                font-size: $text-small;
+                font-family: $font-regular;
+                color: $color-black;
+                text-align: center;
+                margin-bottom: 0;
+                padding: 8px 0;
+                align-self: center;
+            }
+        }
+    }
+    .view-history-call-wrap {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 24px;
+        align-items: center;
+        justify-content: center;
+        font-family: $font-regular;
+        font-size: $text-small;
+        color: $color-gray2;
+        border-width: 0;
+        background-color: $color-white;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

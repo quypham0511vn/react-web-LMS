@@ -1,0 +1,54 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.packageManager": "yarn",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.rulers": [
+        120
+    ],
+    "files.insertFinalNewline": true,
+    "files.autoSave": "onFocusChange",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.workingDirectories": [
+        "./src/"
+    ],
+    "cSpell.words": [
+        "Chọn",
+        "đang",
+        "datadasdas",
+        "datas",
+        "depcreciation",
+        "điện",
+        "fakepeople",
+        "giấy",
+        "hàng",
+        "Hoàn",
+        "Hoàng",
+        "Hoder",
+        "Infomation",
+        "Infor",
+        "khách",
+        "khẩu",
+        "kiếm",
+        "labelbox",
+        "loại",
+        "ngày",
+        "nghị",
+        "người",
+        "nguồn",
+        "Nhàn",
+        "onepeople",
+        "passcode",
+        "quan",
+        "sánh",
+        "thân",
+        "Thông",
+        "Tiền",
+        "toán",
+        "Trưng",
+        "việc",
+        "zalo"
+    ]
+}

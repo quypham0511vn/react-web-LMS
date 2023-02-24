@@ -1,0 +1,208 @@
+@import 'assets/scss';
+.container {
+    width: 100%;
+    background-color: $color-solid-border;
+    height: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-top {
+    display: flex;
+    flex-grow: initial;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.view-top-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-management {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-black;
+}
+
+.txt-address {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-black;
+}
+
+.btn-news-position {
+    display: flex;
+    flex-direction: row;
+    padding: 3px 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green-header;
+    border-radius: 5px;
+}
+
+.label-btn-create {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-white;
+}
+
+.view-body-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 15px;
+    width: auto;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+}
+
+.view-body {
+    padding: 10px 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.view-body-right-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    .view-body-right-button {
+        display: flex;
+        flex-direction: row;
+        border: none;
+        background-color: $color-green-input;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 8px;
+    }
+    .button-group-right {
+        color: $color-green-header;
+        margin-bottom: 0px;
+    }
+    .icon-right-update {
+        width: 22px;
+        height: 22px;
+        filter: invert(43%) sepia(91%) saturate(421%) hue-rotate(93deg) brightness(91%) contrast(84%);
+        margin-left: 8px;
+    }
+}
+
+.table-row {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    .txt-tableCell {
+        font-size: $text-small;
+        font-family: $font-bold;
+        color: $color-black;
+        white-space: nowrap;
+    }
+}
+
+.table-container {
+    border: none;
+    overflow: auto;
+    margin-bottom: 16px;
+}
+
+.table-body {
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    .text-table {
+        font-size: $text-small;
+        color: $color-black;
+        font-family: $font-regular;
+        white-space: nowrap;
+    }
+    .text-detail {
+        font-size: $text-small;
+        color: $color-green;
+        font-family: $font-regular;
+        white-space: nowrap;
+    }
+    .status-active {
+        display: flex;
+        height: 100%;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        .view-status {
+            color: $color-green;
+            font-size: $text-small;
+            font-family: $font-medium;
+            padding: 5px 12px;
+            border-radius: 5px;
+            background-color: $color-green-input;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .status-block {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        .view-status {
+            padding: 5px 12px;
+            border-radius: 5px;
+            background-color: $color-gray-e6;
+            justify-content: center;
+            align-items: center;
+            color: $color-black;
+            font-size: $text-small;
+            font-family: $font-medium;
+        }
+    }
+    .status-new {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        .view-status {
+            padding: 5px 12px;
+            border-radius: 5px;
+            color: $color-yellow-d9;
+            font-size: $text-small;
+            font-family: $font-medium;
+            background-color: $color-yellow-y1;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.table-body-row-white {
+    width: 100%;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+}
+
+.table-body-row-gray {
+    width: 100%;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-gray-f7;
+}
+
+.txt-group-table {
+    font-size: $text-normal;
+    font-family: $font-bold;
+    color: $color-gray2;
+}

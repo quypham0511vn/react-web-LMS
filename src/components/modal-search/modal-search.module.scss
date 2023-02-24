@@ -1,0 +1,153 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    min-width: 25%;
+    max-height: 60%;
+    background-color: $color-white;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-black;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.group-input {
+    padding: 5px 8px;
+    .contain-input {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 8px;
+    }
+    .container-input {
+        margin-top: 3px;
+    }
+}
+
+.title-input {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.btn-status {
+    width: 100%;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px 8px;
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label-continue {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.label-cancel {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container-button {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    &:hover {
+        background-color: $color-green-header;
+        width: 100%;
+        .label-btn {
+            color: $color-white;
+            font-size: $text-small;
+            font-family: $font-regular;
+            padding-left: 10px;
+            text-transform: capitalize;
+            text-align: left;
+            padding-right: 5px;
+        }
+    }
+    .label-btn {
+        color: $color-gray2;
+        font-size: $text-small;
+        font-family: $font-regular;
+        padding-left: 10px;
+        text-transform: capitalize;
+        text-align: left;
+        padding-right: 5px;
+    }
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    max-height: 35vh;
+    padding: 10px 0px;
+    background-color: $color-white;
+    border: 0.2px solid $color-gray-e6;
+    border-top: none;
+}
+
+.view-dropdown {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

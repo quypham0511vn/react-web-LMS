@@ -1,0 +1,167 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    min-width: 30%;
+    max-height: 60%;
+    background-color: $color-white;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-black;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+.view-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px;
+    gap: 20px;
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label-continue {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-white;
+    text-align: center;
+}
+
+.label-cancel {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-black;
+    text-align: center;
+}
+
+.item-exception {
+    padding: 5px 0px;
+    background-color: $color-white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.label-item {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    text-align: start;
+}
+
+.icon-right {
+    width: 22px;
+    height: 22px;
+    margin-right: -5px;
+}
+
+.container-button {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    .label-btn {
+        color: $color-gray2;
+        font-size: $text-small;
+        font-family: $font-regular;
+        padding-left: 10px;
+        text-transform: capitalize;
+        text-align: left;
+        padding-right: 5px;
+    }
+}
+
+.container-button-green {
+    background-color: $color-green-header;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    .label-btn {
+        color: $color-white;
+        font-size: $text-small;
+        font-family: $font-regular;
+        padding-left: 10px;
+        text-transform: capitalize;
+        text-align: left;
+    }
+    .right-icon {
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+}
+
+.department {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+    span {
+        font-size: $text-small;
+        font-family: $font-regular;
+        color: $color-gray2;
+    }
+}
+
+.form-control {
+    justify-content: center;
+    align-items: center;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    span {
+        font-size: $text-small;
+        font-weight: $font-regular;
+        color: $color-gray2;
+    }
+}

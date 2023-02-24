@@ -1,0 +1,25 @@
+@import "assets//scss/";
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    width: 100%;
+    background-color: $color-white;
+    border-radius: 8px;
+    border: 0 solid;
+    &:hover {
+        opacity: 0.6;
+    }
+    .label-left-view {
+        font-size: $text-small;
+        color: $color-gray2;
+        font-family: $font-regular;
+    }
+    .label-right-view {
+        font-size: $text-small;
+        color: $color-gray2;
+        font-family: $font-regular;
+    }
+}

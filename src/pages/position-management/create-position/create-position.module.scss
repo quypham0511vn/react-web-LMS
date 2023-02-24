@@ -1,0 +1,326 @@
+@import 'assets/scss';
+.container-input {
+    width: 15%;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    background-color: $color-solid-border;
+    padding: 0px 10px;
+    flex: 1;
+}
+
+.view-body {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 88%;
+}
+
+.view-top {
+    display: flex;
+    flex-grow: initial;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.view-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-management {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-gray2;
+}
+
+.txt-address {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-black;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-news-position {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: $color-green-header;
+}
+
+.right-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.label-btn {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-white;
+}
+
+.view-body-left {
+    padding: 10px 8px;
+    width: 30%;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+    height: 100%;
+}
+
+.txt-group {
+    margin-top: 25px;
+    font-size: $text-normal;
+    color: $color-black;
+    font-family: $font-bold;
+}
+
+.txt-input {
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    height: 90%;
+    padding: 5px 0px;
+}
+
+.group-input {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-styles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.title-input {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.color-star {
+    color: $color-red;
+}
+
+.btn-status {
+    width: 100%;
+    border: 1px solid $color-solid-border;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-body-right {
+    display: flex;
+    width: calc(100% - 18% - 25px);
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+}
+
+.txt-author {
+    margin: 8px;
+    font-size: $text-normal;
+    color: $color-black;
+    font-family: $font-bold;
+}
+
+.txt-info {
+    font-size: $text-small;
+    color: $color-gray2;
+    font-family: $font-regular;
+    margin-bottom: 5px;
+}
+
+.info-position {
+    max-height: 40%;
+    width: 100%;
+    padding: 5px;
+}
+
+.list-position {
+    margin-top: 30px;
+    width: 100%;
+    padding: 5px;
+}
+
+.group-info {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.group-list {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.body-info-position {
+    height: 95%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-icon-input {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.view-body-left-input {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    outline: none;
+    flex: 1;
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    padding: 5px 8px;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+.container-input-styles {
+    margin-top: 5px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.check-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 16px;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    span {
+        font-size: $text-small;
+        font-weight: $font-regular;
+    }
+}
+
+.box-group-info {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: -5px;
+}
+
+.box-group {
+    width: 100%;
+    height: 80%;
+    margin-left: -15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 30px;
+}
+
+.view-dropdown {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    max-height: 35vh;
+    padding: 10px 0px;
+    background-color: $color-white;
+    border: 0.2px solid $color-gray-e6;
+    border-top: none;
+}
+
+.container-button {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    &:hover {
+        background-color: $color-green-header;
+        width: 100%;
+        .label-btn {
+            color: $color-white;
+            font-size: $text-small;
+            font-family: $font-regular;
+            padding-left: 10px;
+            text-align: left;
+            padding-right: 5px;
+        }
+    }
+    .label-btn {
+        color: $color-gray2;
+        font-size: $text-small;
+        font-family: $font-regular;
+        padding-left: 10px;
+        text-align: left;
+        padding-right: 5px;
+    }
+}

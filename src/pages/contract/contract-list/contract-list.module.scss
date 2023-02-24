@@ -1,0 +1,352 @@
+@import "assets/scss";
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    background-color: $color-gray-e8;
+}
+
+.container-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-top-left {
+    display: flex;
+    flex-direction: column;
+    .title {
+        font-size: $text-big;
+        font-family: $font-bold;
+        color: $color-gray2;
+    }
+}
+
+.label-path {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.container-btn-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green-header;
+    border-radius: 5px;
+    padding: 5px 20px;
+    height: min-content;
+}
+
+.label-btn-add {
+    font-size: $text-small;
+    color: $color-white;
+    font-family: $font-medium;
+    white-space: nowrap;
+}
+
+.icon-right-btn {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1);
+}
+
+.container-tabs {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 25px;
+}
+
+.container-btn-choose-tabs {
+    border-radius: 5px;
+    background-color: $color-green-input;
+    padding: 3px 20px;
+}
+
+.label-btn-choose-tabs {
+    font-size: $text-small;
+    color: $color-green-header;
+    font-family: $font-medium;
+}
+
+.container-btn-tabs {
+    border-radius: 5px;
+    background-color: $color-transparent;
+    padding: 5px 10px;
+    border: none;
+}
+
+.label-btn-tabs {
+    font-size: $text-small;
+    color: $color-gray2;
+    font-family: $font-regular;
+}
+
+.container-table {
+    flex: 1;
+    display: flex;
+    background-color: $color-white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.table-container {
+    border: none;
+    overflow: auto;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.table-body {
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    .text-table {
+        font-size: $text-small;
+        color: $color-black;
+        font-family: $font-regular;
+        white-space: nowrap;
+    }
+    .text-detail {
+        font-size: $text-small;
+        color: $color-green;
+        font-family: $font-regular;
+    }
+}
+
+.table-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green-input;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.table-row {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    .txt-tableCell {
+        font-size: $text-small;
+        font-family: $font-bold;
+        color: $color-black;
+        white-space: nowrap;
+    }
+}
+
+.table-cell {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-body-row-white {
+    width: 100%;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+}
+
+.table-body-row-gray {
+    width: 100%;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-gray-f7;
+}
+
+.view-bottom-table {
+    display: block;
+    flex: 1;
+}
+
+.img-detail {
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px;
+}
+
+.pagination-contain {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    span {
+        color: $color-gray2;
+        font-family: $font-regular;
+        font-size: $text-small;
+    }
+}
+
+.view-table-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.view-table-top-right {
+    gap: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.view-table-top-center {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    margin: 0px 20px 0px 40px;
+    padding: 0px 10px;
+}
+
+.title {
+    font-size: $text-normal;
+    font-family: $font-medium;
+    color: $color-gray2;
+}
+
+.view-body-right-button {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: $color-green-input;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+}
+
+.button-group-right {
+    color: $color-green-header;
+    font-size: $text-small;
+    font-family: $font-medium;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.icon-right {
+    width: 22px;
+    height: 22px;
+    fill: $color-green-header;
+    margin-left: 8px;
+    filter: invert(43%) sepia(91%) saturate(421%) hue-rotate(93deg) brightness(91%) contrast(84%);
+}
+
+.view-body-right-button-excel {
+    flex-direction: row;
+    border: 1px solid $color-green-header;
+    background-color: $color-white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+}
+
+.right-icon-input {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.view-body-left-input {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    outline: none;
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    padding: 5px 8px;
+    flex: 1;
+}
+
+.container-input {
+    white-space: nowrap;
+    flex: 1;
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.container-picker {
+    z-index: 1000;
+}
+
+.view-search-table {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    width: 100%;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.item-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green-input;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.label {
+    font-size: $text-x-small;
+    color: $color-green-header;
+    font-family: $font-regular;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.popover {
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid $color-gray-e8;
+    padding: 10px 5px;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    .label-popover {
+        white-space: nowrap;
+        font-size: $text-small;
+        font-family: $font-regular;
+        color: $color-gray2;
+        text-align: start;
+    }
+}
+
+.btn-popover {
+    display: flex;
+    background-color: $color-white;
+    padding: 5px;
+    justify-content: flex-start;
+}

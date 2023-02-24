@@ -1,0 +1,59 @@
+@import "assets//scss/";
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    min-width: 20%;
+    background-color: $color-white;
+    border-radius: 8px;
+}
+
+.clear-container {
+    display: flex;
+    position: relative;
+    padding-bottom: 16px;
+    justify-content: center;
+    .clear-user-text {
+        display: flex;
+        font-size: $text-normal;
+        font-family: $font-medium;
+        color: $color-gray8;
+        align-self: center;
+    }
+    .close-img {
+        position: absolute;
+        right: 0;
+        display: flex;
+        cursor: pointer;
+    }
+}
+
+.notice-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    .notice-text {
+        font-size: $text-small;
+        font-family: $font-regular;
+        color: $color-gray2;
+        padding-left: 9px;
+        span {
+            color: $color-red1;
+        }
+    }
+}
+
+.title-item-text {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-gray2;
+    padding-top: 12px;
+}
+
+.title-item-child-text {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    padding-top: 8px;
+}

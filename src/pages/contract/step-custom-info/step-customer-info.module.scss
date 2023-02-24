@@ -1,0 +1,225 @@
+@import "assets/scss";
+.wrapper {
+    background-color: $color-white;
+    padding: 16px;
+    //   border: 1px solid $color-gray-d8;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.informationTitle {
+    color: $color-dark-red;
+    display: flex;
+    align-items: center;
+    background-color: $color-green2;
+    margin-bottom: 24px;
+    padding: 8px 0;
+    label {
+        font-family: $font-bold;
+        font-size: $text-normal;
+        display: flex;
+        align-items: center;
+        color: $color-green;
+    }
+    .title-container {
+        font-size: $text-normal;
+        line-height: 20px;
+        color: $color-green-header;
+        font-family: $font-medium;
+        padding: 0 80px 0 8px;
+    }
+}
+
+.upload-img {
+    display: flex;
+    flex-direction: column;
+    .upload-text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .cmt {
+            display: flex;
+            font-family: $font-medium;
+            font-size: $text-normal;
+            color: $color-dark-gray;
+        }
+        .upload-note-img {
+            cursor: pointer;
+            padding-bottom: 18px;
+            .upload-title {
+                font-family: $font-regular;
+                font-size: $text-small;
+                color: $color-yellow-d9;
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-gray2;
+}
+
+.customer-information,
+.household-address,
+.address-in,
+.job-information,
+.relative-information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    label {
+        font-size: $text-small;
+        font-family: $font-regular;
+    }
+}
+
+.line-title {
+    display: flex;
+    align-items: center;
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-gray2;
+    flex: 1;
+    .title-item-info {
+        padding-left: 18px;
+    }
+    &::after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid $color-gray-d8;
+        margin-left: 16px;
+    }
+}
+
+.star {
+    color: $color-red1;
+    font-size: $text-small;
+    font-family: $font-regular;
+}
+
+.style-form {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.style-textarea {
+    width: 100%;
+    background: $color-white;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.btn-style {
+    padding: 14px;
+    border-radius: 4px;
+}
+
+.style-container-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.label-style-btn {
+    color: $color-white;
+}
+
+.icon-style-btn {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    padding-left: 10px;
+}
+
+.title-radio-customer {
+    color: $color-green;
+    font-size: $text-small;
+    font-family: $font-medium;
+    padding-left: 4px;
+}
+
+.title-radio-gender {
+    color: $color-gray2;
+    font-size: $text-small;
+    font-family: $font-regular;
+    padding-left: 4px;
+}
+
+.oldCustomers {
+    margin-bottom: 15px;
+}
+
+.form-oldCustomers {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-oldCustomers button {
+    margin-top: 25px;
+    height: 100%;
+}
+
+.input-style {
+    color: $color-gray2;
+    font-family: $font-regular;
+    font-size: $text-small;
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.textarea-container {
+    display: flex;
+    padding: 16px 22px;
+    resize: none;
+    border: none;
+    outline: none;
+    color: $color-gray2;
+    font-family: $font-regular;
+    font-size: $text-small;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    .item-card-upload-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.title-container-living {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.group-check-box-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}

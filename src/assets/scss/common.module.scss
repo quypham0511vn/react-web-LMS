@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    height: calc(var(--vh, 1vh) * 100);
+    width: calc(var(--vw, 1vw) * 100);
+}
+
+.content {
+    flex: 1;
+    width: 100%;
+    overflow: auto;
+}
+
+// ::-webkit-scrollbar {
+//     width: 5px;
+//     height: 5px;
+// }

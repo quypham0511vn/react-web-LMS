@@ -1,0 +1,47 @@
+@import 'assets/scss';
+.toast {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 100px;
+    right: 10px;
+    // animation: slideInleft ease .3s, fadeOut linear 1s 3s forwards;
+    width: 25%;
+    z-index: 10;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(calc(100% + 20px));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.stack {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid $color-red;
+    border-radius: 5px;
+    border-left: 5px solid $color-red;
+    animation: slideInLeft ease .3s, fadeOut linear 1s 3s forwards;
+    .alertTitle {
+        font-size: $text-normal;
+        color: $color-red;
+        font-family: $font-medium;
+    }
+    .describe {
+        font-size: $text-small;
+        color: $color-gray2;
+        font-family: $font-regular;
+    }
+}

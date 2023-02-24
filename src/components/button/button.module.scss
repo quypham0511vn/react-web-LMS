@@ -1,0 +1,57 @@
+@import 'assets/scss';
+.text {
+    font-family: $font-regular;
+    text-align: center;
+    font-size: $text-normal;
+    display: block;
+}
+
+.container {
+    border-radius: 5px;
+    border: unset;
+    padding: 10px 0;
+}
+
+.btn-base {
+    border: none;
+    box-shadow: none;
+    color: $color-white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.btn {
+    &_red {
+        @extend .btn-base;
+        background-color: $color-red;
+    }
+    &_blue {
+        @extend .btn-base;
+        background-color: $color-blue
+    }
+    &_gray {
+        @extend .btn-base;
+        background-color: $color-gray
+    }
+    &_green {
+        @extend .btn-base;
+        background-color: $color-green
+    }
+}
+
+.txt-label {
+    color: $color-black;
+}
+
+.icon-right-styles {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

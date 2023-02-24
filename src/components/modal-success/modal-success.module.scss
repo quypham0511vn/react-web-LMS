@@ -1,0 +1,36 @@
+@import 'assets//scss/';
+.body {
+    display: flex;
+    background-color: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-green-header;
+    min-width: 25%;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+.container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.img {
+    align-self: center;
+}
+
+.styles-description {
+    padding-top: 15px;
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-green-header;
+    text-align: center;
+}
+
+.img-close {
+    align-self: flex-end;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: invert(61%) sepia(0%) saturate(0%) hue-rotate(263deg) brightness(91%) contrast(88%);
+}

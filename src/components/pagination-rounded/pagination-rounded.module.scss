@@ -1,0 +1,23 @@
+@import 'assets/scss';
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-white;
+    border: none;
+    padding: 16px;
+    p {
+        font-size: $text-normal;
+        font-family: $font-medium;
+        color: $color-black;
+        margin-bottom: 0px;
+    }
+}
+
+.pagination {
+    background-color: $color-white;
+    // &:hover li {
+    //     background-color: $color-green-header;
+    // }
+}

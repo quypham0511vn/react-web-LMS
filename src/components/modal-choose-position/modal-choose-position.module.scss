@@ -1,0 +1,91 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 12px;
+    min-width: 30%;
+    min-height: 20%;
+    max-height: 60%;
+    background-color: $color-white;
+    border-radius: 8px;
+}
+
+.group-input {
+    padding: 10px 0px;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: start;
+    span {
+        font-size: $text-big;
+        font-family: $font-bold;
+        color: $color-black;
+        margin-top: 0px;
+    }
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 8px;
+}
+
+.container-button {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:hover {
+        background-color: $color-green-input;
+        width: 100%;
+    }
+    // padding: 8px 0px;
+}
+
+.container-button-child {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    &:hover {
+        background-color: $color-green-input;
+        width: 100%;
+    }
+}
+
+.container-button-child-level-two {
+    background-color: $color-white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 64px;
+    &:hover {
+        background-color: $color-green-input;
+        width: 100%;
+    }
+}
+
+.right-icon-child {
+    margin-left: 20px;
+}
+
+.label-btn {
+    color: $color-black;
+    font-size: $text-normal;
+    font-family: $font-regular;
+    margin-bottom: 0px;
+}
+
+.group-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 85%;
+    overflow: auto;
+}

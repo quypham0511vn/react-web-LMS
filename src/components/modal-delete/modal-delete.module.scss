@@ -1,0 +1,80 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    min-width: 15vw;
+    min-height: 25vh;
+    background-color: $color-white;
+    border-radius: 8px;
+    h1 {
+        font-size: $text-big;
+        font-family: $font-bold;
+        color: $color-black;
+        text-align: center;
+        margin: 16px 0px;
+    }
+}
+
+.group-input {
+    padding: 0px 8px;
+    .contain-input {
+        width: 100%;
+        border: 1px solid $color-solid-border;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    p {
+        font-size: $text-normal;
+        font-family: $font-regular;
+        color: $color-black;
+        text-align: center;
+        margin: 16px 0px;
+    }
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 8px;
+}
+
+.button-continue {
+    background-color: $color-red1;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.label-continue {
+    font-size: $text-normal;
+    font-family: $font-medium;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}
+
+.button-cancel {
+    background-color: $color-gray-d8;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.label-cancel {
+    font-size: $text-normal;
+    font-family: $font-medium;
+    color: $color-black;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}

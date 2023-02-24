@@ -1,0 +1,84 @@
+@import "assets/scss";
+.button {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-left: 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-title {
+    font-size: $text-small;
+    font-family: $font-medium;
+}
+
+.left-container {
+    background-color: $color-white;
+    border: 1px solid $color-gray-d8;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(100% - 32px);
+}
+
+.box-two {
+    border-radius: 8px;
+    border: 1px solid $color-gray-d8;
+    background: $color-white;
+    margin-top: 0px !important;
+    padding: 8px !important;
+}
+
+.title {
+    width: 100%;
+    background-color: $color-green2;
+    padding: 8px;
+    margin-bottom: 16px;
+    color: $color-green-header;
+    font-family: $font-medium;
+}
+
+.info-customer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0px;
+    gap: 16px;
+    background-color: $color-gray-f7;
+    font-family: $font-medium;
+}
+
+.info-1 {
+    width: 100%;
+    border-bottom: 1px solid $color-gray5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.info-relative {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0px;
+    gap: 16px;
+    background-color: $color-gray-f7;
+    font-family: $font-medium;
+}
+
+.font-text {
+    font-size: $text-small;
+    font-family: $font-medium;
+}
+
+.title-2 {
+    width: 100%;
+    background-color: $color-green2;
+    padding: 8px;
+    color: $color-green-header;
+    font-family: $font-medium;
+}

@@ -1,0 +1,80 @@
+@import "assets/scss";
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: $color-green-header;
+    align-items: center;
+    padding: 5px 5px;
+    width: 100%;
+    .innerLeft {
+        padding-right: 10px;
+        .icon-tienngay {
+            width: 100%;
+        }
+    }
+    .innerCenter {
+        width: 50%;
+        display: flex;
+        .textContent {
+            width: 100%;
+            display: flex;
+            gap: 10%;
+            color: $color-white-gray;
+            span {
+                font-family: $font-regular;
+                font-size: $text-small;
+                white-space: nowrap;
+            }
+        }
+    }
+    .innerRight {
+        .innerRightItem {
+            display: flex;
+            align-items: center;
+            .avatar-item {
+                padding: 8px;
+                background-color: $color-white-gray;
+            }
+            .avatarLogin {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $color-white-gray;
+                padding: 3px 5px;
+                border-radius: 40px;
+                .textContainer {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 5px 0 5px;
+                    justify-content: center;
+                    .txtName {
+                        font-family: $font-medium;
+                        font-size: $text-normal;
+                        white-space: nowrap;
+                    }
+                    .txtTitle {
+                        font-family: $font-regular;
+                        font-size: $text-small;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+    //--------------------
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        background-color: $color-white;
+        padding: 5px;
+        margin: 0 10px 0 10px;
+        border-radius: 50%;
+    }
+    .wrapButton {
+        display: flex;
+        justify-content: flex-end;
+        background-color: red;
+    }
+}

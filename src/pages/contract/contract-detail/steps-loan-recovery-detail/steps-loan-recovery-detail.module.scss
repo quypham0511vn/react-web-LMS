@@ -1,0 +1,166 @@
+@import "assets/scss";
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.styles-box {
+    width: 100%;
+}
+
+.box-container {
+    margin-left: 0px;
+    padding: 8px !important;
+    display: flex;
+    border: 1px solid $color-gray-d8;
+    background-color: $color-white;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+.title {
+    width: 100%;
+    background-color: $color-gray-f7;
+    padding: 3px;
+    margin: 8px 0px 0px 8px;
+    color: $color-gray2;
+    font-family: $font-bold;
+    font-size: $text-small;
+    height: min-content;
+}
+
+.view-item {
+    margin-top: 10px;
+}
+
+.item-box-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $color-gray-d8;
+    max-width: calc(100% - 10px);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: fit-content;
+}
+
+.left-container {
+    padding: 0px !important;
+    margin-top: 24px !important;
+    margin-left: 8px !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .grid-child {
+        margin-left: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.grid-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.grid-item {
+    padding: 0px !important;
+}
+
+.item-box-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.title-item {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-gray2;
+    height: fit-content;
+}
+
+.label-item {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    height: fit-content;
+}
+
+.button-container {
+    background-color: $color-transparent;
+    display: flex;
+    max-width: calc(100% - 10px);
+    margin-left: 10px;
+    justify-content: flex-start;
+    border-bottom: 1px solid $color-gray-d8;
+    .label-btn {
+        font-size: $text-small;
+        font-family: $font-medium;
+        color: $color-green-header;
+        margin-left: -10px !important;
+    }
+}
+
+.grid-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.grid-box {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 !important;
+}
+
+.style-label {
+    font-size: $text-small;
+    color: $color-gray2;
+    font-family: $font-medium;
+    white-space: nowrap;
+}
+
+.style-label-focus {
+    font-size: $text-small;
+    color: $color-green-header;
+    font-family: $font-medium;
+    white-space: nowrap;
+}
+
+.style-container {
+    background-color: $color-transparent;
+    border-radius: 5px;
+}
+
+.style-container-focus {
+    background-color: $color-green-input;
+    border-radius: 5px;
+}
+
+.view-tabs {
+    display: flex;
+    gap: 5px;
+    margin: 15px 0px;
+}
+
+.color-red {
+    color: $color-red1
+}
+
+.color-green {
+    color: $color-green
+}
+
+.color-blue {
+    color: $color-blue
+}

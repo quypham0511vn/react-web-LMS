@@ -1,0 +1,12 @@
+@import 'assets/scss';
+.label-styles {
+    font-size: $text-small;
+    color: $color-gray2;
+    font-family: $font-regular;
+}
+
+.container {
+    a {
+        text-decoration: none;
+    }
+}

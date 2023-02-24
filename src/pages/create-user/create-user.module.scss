@@ -1,0 +1,457 @@
+@import 'assets/scss';
+.container-input {
+    width: 15vw;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    background-color: $color-solid-border;
+    padding: 5px 10px;
+    width: 100%;
+    flex: 1;
+}
+
+.view-top {
+    display: flex;
+    flex-grow: initial;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.view-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-management {
+    font-size: $text-big;
+    font-family: $font-bold;
+    color: $color-gray2;
+}
+
+.txt-address {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-black;
+}
+
+.btn-news-user {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: $color-green-header;
+}
+
+.btn-delete-user {
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+    padding: 8px 12px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: $color-red-r1;
+}
+
+.label-btn {
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-white;
+}
+
+.label-btn-position {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+.right-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.view-body {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+
+.view-body-left {
+    padding: 10px 8px;
+    width: 30%;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+    height: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.txt-group {
+    margin-top: 25px;
+    font-size: $text-normal;
+    color: $color-black;
+    font-family: $font-bold;
+}
+
+.txt-author {
+    margin-top: 8px;
+    font-size: $text-normal;
+    color: $color-black;
+    font-family: $font-bold;
+}
+
+.group-input {
+    padding: 10px 8px 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-input {
+    margin-top: 5px;
+    .input-styles {
+        border-radius: 5px;
+        padding: 8px;
+        width: 100%;
+        outline: none;
+        border: none;
+    }
+}
+
+.title-input {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.contain-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: $color-white;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.label-inputPosition {
+    color: $color-green-header;
+    font-size: $text-normal;
+    font-family: $font-regular;
+    margin-bottom: 0px;
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.label-continue {
+    font-size: $text-normal;
+    font-family: $font-medium;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}
+
+.label-cancel {
+    font-size: $text-normal;
+    font-family: $font-medium;
+    color: $color-black;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 16px 8px;
+    position: absolute;
+    bottom: 16px;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-body-right {
+    display: flex;
+    width: calc(100% - 18% - 25px);
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+}
+
+.label-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.img-close {
+    width: 1.375em;
+    height: 1.375em;
+}
+
+.bg-img-close-position {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: $color-red-r1;
+    margin-left: 5px;
+}
+
+.view-item {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.view-item-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    h1 {
+        font-size: $text-normal;
+        color: $color-black;
+        font-family: $font-bold;
+    }
+}
+
+.group-checkbox {
+    border: 1px solid $color-solid-border;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px;
+    .check-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 0px 16px;
+        margin-top: -5px;
+        span {
+            font-size: $text-small;
+            font-family: $font-regular;
+        }
+    }
+}
+
+.btn-add-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-green-header;
+    padding: 8px;
+    width: 100%;
+    background-color: $color-white;
+    margin-top: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.container-btn-add-permissions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-green-header;
+    padding: 3px 20px;
+    background-color: $color-white;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+.btn-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container-group-checkbox {
+    width: 100%;
+    padding: auto;
+    overflow-y: auto;
+    padding-bottom: 16px;
+    height: 95%;
+}
+
+.label-btn-add {
+    color: $color-green-header;
+    font-size: $text-small;
+    font-family: $font-regular;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 5px 0px;
+}
+
+.list-checkbox {
+    width: 18%;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+    margin-left: 15px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.box-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    .check-item {
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        margin-left: -10px;
+    }
+}
+
+.title-box-group {
+    margin-bottom: 5px;
+    font-size: $text-normal;
+    font-family: $font-bold;
+    color: $color-gray2;
+}
+
+.item {
+    width: 100%;
+    margin-left: -8px;
+    span {
+        font-size: $text-normal;
+        font-family: $font-regular;
+        color: $color-black;
+    }
+}
+
+.txt-input {
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    height: 90%;
+    padding: 5px 0px;
+}
+
+.color-star {
+    color: $color-red;
+}
+
+.form-control-radio span {
+    font-size: $text-small;
+    font-weight: $font-regular;
+}
+
+.form-control-group {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.form-control {
+    justify-content: center;
+    align-items: center;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    span {
+        font-size: $text-small;
+        font-weight: $font-regular;
+    }
+}
+
+.form-group {
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+    svg {
+        width: 22px;
+        height: 22px;
+    }
+    span {
+        font-size: $text-normal;
+        font-weight: $font-regular;
+    }
+}
+
+.bg-form {
+    background-color: $color-green-input;
+}
+
+.group-close {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-body-left-input {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    outline: none;
+    width: 85%;
+    font-size: $text-small;
+    font-family: $font-regular;
+    background-color: $color-white;
+    padding: 5px 8px;
+}

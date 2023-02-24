@@ -1,0 +1,57 @@
+@import "assets/scss";
+.btn-add {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border: 1px solid $color-green-header;
+    background-color: $color-transparent;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    .label-add {
+        color: $color-green-header;
+        font-size: $text-small;
+        font-family: $font-regular;
+    }
+    .icon-btn {
+        filter: invert(43%) sepia(91%) saturate(421%) hue-rotate(93deg) brightness(91%) contrast(84%);
+    }
+}
+
+.input-add {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.group-image {
+    display: flex;
+    border: 1px solid $color-gray-d8;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.image {
+    width: calc(100% - 5px);
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.grid {
+    margin-bottom: 5px !important;
+    position: relative;
+}
+
+.img-close {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: calc(2%);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: $color-red-r1;
+    z-index: 1;
+}

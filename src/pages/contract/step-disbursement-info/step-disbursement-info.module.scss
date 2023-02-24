@@ -1,0 +1,117 @@
+@import "assets/scss";
+.wrapper {
+    background-color: $color-white;
+    padding: 16px;
+    width: 100%;
+    background: $color-white;
+    /* boder/Boder 2 */
+    border: 1px solid $color-gray-d8;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding: 4px;
+    width: 100%;
+    background: $color-green2;
+    span {
+        font-size: $text-normal;
+        color: $color-green-header;
+        font-family: $font-medium;
+        padding-left: 8px;
+    }
+}
+
+.container-input {
+    margin-top: 4px;
+}
+
+.btn-arrow {
+    background-color: $color-green-header;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.start {
+    color: $color-red1;
+    font-size: $text-small;
+    font-family: $font-medium;
+}
+
+.btn-red {
+    background-color: $color-red-r1;
+    border-radius: 5px;
+    color: $color-red1;
+    align-items: center;
+    display: flex;
+}
+
+.btn-green {
+    background-color: $color-green-header;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.btn-xt {
+    display: flex;
+    gap: 5%;
+    white-space: nowrap;
+}
+
+.start {
+    color: $color-red1;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: $text-small;
+    font-family: $font-medium;
+    color: $color-gray2;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.label::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid $color-gray-d8;
+    margin-left: 10px;
+}
+
+.label-input {
+    margin-bottom: 12px;
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.label-picker {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.input-style {
+    color: $color-gray2;
+    font-family: $font-regular;
+    font-size: $text-small;
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

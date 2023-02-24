@@ -1,0 +1,162 @@
+@import 'assets//scss/';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    min-width: 10%;
+    height: 70%;
+    background-color: $color-white;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: $text-big;
+    font-family: $font-medium;
+    color: $color-black;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.wrap-content {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px;
+    gap: 24px;
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label-continue {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-white;
+    text-align: center;
+    padding: 6px 0px;
+}
+
+.label-cancel {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-black;
+    text-align: center;
+}
+
+.label-styles {
+    font-family: $font-regular;
+    font-size: $text-small;
+    color: $color-gray2;
+}
+
+.placeholder {
+    font-family: $font-regular;
+    font-size: $text-small;
+    color: $color-gray2;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    color: $color-gray2;
+    font-size: $text-small;
+    font-family: $font-regular;
+    outline: none;
+}
+
+.label-picker {
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.input-container {
+    margin-top: 3px;
+}
+
+.container-input {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.view-input-time {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.errorMsg {
+    border-color: $color-red1;
+}
+
+.messageError {
+    margin: 5px 0px -15px 0px;
+    background-color: $color-white;
+    .text-err {
+        color: $color-red1;
+        font-size: $text-small;
+        font-family: $font-regular;
+    }
+}
+
+.errMsg {
+    border: 1px solid var(--red-color-1);
+    position: relative;
+    animation: shake 0.9s ease 1;
+}
+
+.container-btn {
+    width: 100%;
+    border: 1px solid $color-solid-border;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

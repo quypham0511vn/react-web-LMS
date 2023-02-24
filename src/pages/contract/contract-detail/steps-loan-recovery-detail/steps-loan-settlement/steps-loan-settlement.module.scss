@@ -1,0 +1,166 @@
+@import "assets/scss";
+.container {
+    flex: 1;
+    display: flex;
+    background-color: $color-white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px $color-t-gray;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.txt-group-table {
+    font-size: $text-normal;
+    font-family: $font-bold;
+    color: $color-gray2;
+    margin: 8px;
+}
+
+.label-input {
+    margin-bottom: 12px;
+    font-size: $text-small;
+    font-family: $font-regular;
+    color: $color-gray2;
+}
+
+.container-input {
+    margin-top: 4px;
+}
+
+.input-style {
+    color: $color-gray2;
+    font-family: $font-regular;
+    font-size: $text-small;
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 1px solid $color-gray-d8;
+    outline: none;
+    margin: 5px 0px;
+    background-color: $color-gray-e6;
+    .label-item {
+        color: $color-gray2;
+        font-family: $font-regular;
+        font-size: $text-small;
+    }
+}
+
+.star {
+    color: $color-red1;
+}
+
+.box-container {
+    padding: 0px !important;
+    margin-left: 8px !important;
+    margin-bottom: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    .grid-child {
+        margin-left: 0px;
+    }
+}
+
+.title-radio-form {
+    color: $color-gray2;
+    font-size: $text-small;
+    font-family: $font-regular;
+    padding-left: 4px;
+}
+
+.btn-add {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-green-header;
+    padding: 3px 20px;
+    background-color: $color-green-header;
+    margin: 16px;
+    border-radius: 5px;
+}
+
+.label-btn {
+    color: $color-white;
+    font-size: $text-small;
+    font-family: $font-regular;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 5px 0px;
+}
+
+.container-view-exception {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label-input {
+    font-size: $text-small;
+    color: $color-gray2;
+    font-family: $font-regular;
+    text-align: start;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    margin: 5px;
+    border: none;
+    background: $color-white;
+    border-radius: 5px;
+    height: 100px;
+    resize: none;
+    outline: none;
+}
+
+.view-bottom {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.right-btn {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.container-item {
+    margin-top: 10px;
+}
+
+.color-red {
+    color: $color-red1;
+    font-family: $font-medium;
+}
+
+.group-item-radio {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    margin-bottom: 14px;
+}
